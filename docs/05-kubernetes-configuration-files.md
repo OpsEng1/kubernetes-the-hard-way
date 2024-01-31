@@ -184,6 +184,13 @@ At `master-1` and `master-2` nodes, run the following, selecting option 2
 ```
 ./cert_verify.sh
 ```
+Results:
+admin kubeconfig file found, verifying the authenticity
+admin kubeconfig cert and key are correct
+/home/vagrant/kube-controller-manager.kubeconfig found
+/home/vagrant/kube-scheduler.kubeconfig found
+/home/vagrant/kube-proxy.kubeconfig found
+
 
 
 Prev: [Certificate Authority](04-certificate-authority.md)<br>
