@@ -73,18 +73,19 @@ kubectl version -o yaml
 ```
 kubectl version -o yaml
 clientVersion:
-  buildDate: "2023-11-15T16:58:22Z"
+  buildDate: "2024-01-17T15:51:03Z"
   compiler: gc
-  gitCommit: bae2c62678db2b5053817bc97181fcc2e8388103
+  gitCommit: bc401b91f2782410b3fb3f9acf43a995c4de90d2
   gitTreeState: clean
-  gitVersion: v1.28.4
-  goVersion: go1.20.11
+  gitVersion: v1.29.1
+  goVersion: go1.21.6
   major: "1"
-  minor: "28"
+  minor: "29"
   platform: linux/amd64
 kustomizeVersion: v5.0.4-0.20230601165947-6ce0bf390ce3
 
 The connection to the server localhost:8080 was refused - did you specify the right host or port?
+
 ```
 
 Don't worry about the error at the end as it is expected. We have not set anything up yet!
