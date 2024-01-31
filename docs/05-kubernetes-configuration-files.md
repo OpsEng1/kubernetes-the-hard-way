@@ -190,7 +190,7 @@ admin kubeconfig cert and key are correct
 /home/vagrant/kube-controller-manager.kubeconfig found
 /home/vagrant/kube-scheduler.kubeconfig found
 /home/vagrant/kube-proxy.kubeconfig found
-
+```
 
 
 Prev: [Certificate Authority](04-certificate-authority.md)<br>
