@@ -264,7 +264,7 @@ In this section you will provision an external load balancer to front the Kubern
 
 A NLB operates at [layer 4](https://en.wikipedia.org/wiki/OSI_model#Layer_4:_Transport_layer) (TCP) meaning it passes the traffic straight through to the back end servers unfettered and does not interfere with the TLS process, leaving this to the Kube API servers.
 
-Login to `loadbalancer` instance using SSH Terminal.
+Login to **`loadbalancer`** instance using SSH Terminal.
 
 [//]: # (host:loadbalancer)
 
@@ -319,12 +319,12 @@ curl  https://${LOADBALANCER}:6443/version -k
 ```
 {
   "major": "1",
-  "minor": "24",
-  "gitVersion": "${KUBE_VERSION}",
-  "gitCommit": "aef86a93758dc3cb2c658dd9657ab4ad4afc21cb",
+  "minor": "29",
+  "gitVersion": "v1.29.1",
+  "gitCommit": "bc401b91f2782410b3fb3f9acf43a995c4de90d2",
   "gitTreeState": "clean",
-  "buildDate": "2022-07-13T14:23:26Z",
-  "goVersion": "go1.18.3",
+  "buildDate": "2024-01-17T15:41:12Z",
+  "goVersion": "go1.21.6",
   "compiler": "gc",
   "platform": "linux/amd64"
 }
