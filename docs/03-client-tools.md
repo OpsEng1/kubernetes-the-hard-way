@@ -37,6 +37,8 @@ ssh-copy-id -o StrictHostKeyChecking=no vagrant@worker-2
 
 For each host, the output should be similar to this. If it is not, then you may have entered an incorrect password. Retry the step.
 
+Note: If the above doesn't work just ssh into the respective server and copy the public key across for master-1 into the .ssh/authorized_keys file
+
 ```
 Number of key(s) added: 1
 
