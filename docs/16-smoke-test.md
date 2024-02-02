@@ -104,6 +104,7 @@ curl http://worker-2:$PORT_NUMBER
 > output
 
 ```
+# It depends on which worker node the pod is deployed to as you will get a timeout with one of the curls above. To check which node your pod is on, use 'kubectl describe pod nginx-XXXX' and check node, then use the corresponding curl command
 <!DOCTYPE html>
 <html>
 <head>
